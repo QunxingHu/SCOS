@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android= "http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/item_personProfile"
+            android:title="个人资料"
+            android:icon="@drawable/ic_account" />
+        <item
+            android:id="@+id/item_notifies"
+            android:title="通知"
+            android:icon="@drawable/ic_notifications"/>
+        <item
+            android:id="@+id/item_order"
+            android:title="订单管理"
+            android:icon="@drawable/ic_orders"/>
+    </group>
+    <item android:title="子菜单">
+        <menu>
+            <item
+                android:title="注册新账号"
+                android:id="@+id/item_regist"
+                android:icon="@drawable/ic_account" />
+            <item
+                android:title="退出登录"
+                android:id="@+id/item_signout"
+                android:icon="@drawable/ic_logout" />
+            <item
+                android:title="关于"
+                android:id="@+id/item_about"
+                android:icon="@drawable/ic_about" />
+
+        </menu>
+    </item>
+
+
+</menu>
